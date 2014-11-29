@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+@import 'modules/init';
+body {
+    padding: {
+        top: 300px;
+    }
+    text-align: center;
+}
+$line: #1dcd00;
+$whatsapp: #2ba81b;
+
+%base-btn {
+    display: inline-block;
+    background: {
+        size: cover;
+    }
+    text-indent: -9999px;
+}
+
+.line-btn {
+    @extend %base-btn;
+    background: {
+        image: url(../images/line.png);
+    }
+    width: 100px;
+    height: 40px;
+}
+.whatsapp-btn {
+    @extend %base-btn;
+    background: {
+        image: url(../images/whatsapp.png);
+    }
+    width: 40px;
+    height: 40px;
+}
