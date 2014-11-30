@@ -40,5 +40,5 @@ So what I have does is make this work while there's a link with a `class="line-b
 
 ###Comments
 
-* Of course, this links must be tried from a phone with these apps already installed. I tried on an iPhone with iOS8 (in case it doesnt't work in other OS).
-*
+* Of course, these links must be tried from a phone with these apps already installed. I tried on an **iPhone with iOS8** (in case it doesnt't work in other OS).
+* In case you want to try them, here's the link: [CLICK ME!](https://hectorpalmatellez.github.io/imbtn/)
