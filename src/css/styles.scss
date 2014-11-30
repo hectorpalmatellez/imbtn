@@ -2,10 +2,32 @@
 
 @import 'modules/init';
 body {
-    padding: {
-        top: 300px;
-    }
     text-align: center;
+    font: {
+        family: 'Helvetica', Arial, sans-serif;
+        weight: 100;
+    }
+}
+.contenedor {
+    position: relative;
+    width: 100%;
+    padding: {
+        top: 1em;
+    }
+}
+.contenido {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: auto;
+}
+h1 {
+    font: {
+        size: 1em;
+    }
+    text: {
+        transform: uppercase;
+    }
 }
 $line: #1dcd00;
 $whatsapp: #2ba81b;
