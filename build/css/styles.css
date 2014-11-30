@@ -450,3 +450,40 @@ figure {
 
 *, *:before, *:after {
   box-sizing: border-box; }
+
+body {
+  text-align: center;
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-weight: 100; }
+
+.contenedor {
+  position: relative;
+  width: 100%;
+  padding-top: 1em; }
+
+.contenido {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  margin: auto; }
+
+h1 {
+  font-size: 1em;
+  text-transform: uppercase; }
+
+.line-btn, .whatsapp-btn {
+  display: inline-block;
+  background-size: cover;
+  text-indent: -9999px; }
+
+.line-btn {
+  background-image: url(../images/line.png);
+  width: 100px;
+  height: 40px; }
+
+.whatsapp-btn {
+  background-image: url(../images/whatsapp.png);
+  width: 40px;
+  height: 40px; }
