@@ -38,3 +38,7 @@ So what I have does is make this work while there's a link with a `class="line-b
 *  [Whatsapp Logos](http://media.whatsapp.com/logos/Vector)
 *  [Using the LINE logo](http://line.me/logo/en)
 
+###Comments
+
+* Of course, this links must be tried from a phone with these apps already installed. I tried on an iPhone with iOS8 (in case it doesnt't work in other OS).
+*
